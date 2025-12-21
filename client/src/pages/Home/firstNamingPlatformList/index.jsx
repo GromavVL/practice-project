@@ -4,17 +4,22 @@ import firstNamingPlatform from './firstNamePlatform.json';
 
 function FirstNamingPlatformList () {
   return (
-    <section className={styles.sectionCart}>
-      <ul className={styles.listCart}>
-        {firstNamingPlatform.map((c, i) => (
-          <li className={styles.listEl} key={i}>
-            <img src={c.iconSrc} alt={c.title} />
-            <h3>{c.title}</h3>
-            <p>{c.body}</p>
-          </li>
-        ))}
-      </ul>
-    </section>
+    <>
+      <div className={styles.namingPlatformListContainer}>
+        <h2>World's #1 Naming Platform</h2>
+        <ul className={styles.namingPlatformList}>
+          {firstNamingPlatform.map((c, i) => (
+            <li key={i}>
+              <div className={styles.namingPlatformArticle}>
+                <img src={c.iconSrc} alt={c.title} />
+                <h3>{c.title}</h3>
+                <p>{c.body}</p>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </>
   );
 }
 
