@@ -10,23 +10,23 @@ function Pricing () {
     <div className={styles.pricingContainer}>
       <Header />
       <main className={styles.content}>
-        <ul>
+        <ul className={styles.cartWrapper}>
           {prices.map(p => (
             <li>
-              <article>
-                <div style={{ border: `10px solid ${p.color}` }}>
-                  <h3 style={{ color: p.color }}>{p.type}</h3>
-                  <p>{p.describeType}</p>
-                  <p style={{ color: p.color }}>{p.price}</p>
+              <article className={styles.cart}>
+                <div className={styles.cardTitle} style={{ border: `10px solid ${p.color}` }}>
+                  <h3 className={styles.title} style={{ color: p.color }}>{p.type}</h3>
+                  <p className={styles.priceInfo}>{p.describeType}</p>
+                  <p className={styles.price} style={{ color: p.color }}>{p.price}</p>
                 </div>
-                <div>
+                <div className={styles.profitContainer}>
                   {p.profit.map(profit => (
                     <p className={styles.body} data-tooltip={profit.tooltip}>
                       {profit.body}
                     </p>
                   ))}
                 </div>
-                <Link to='/startContest' style={{ backgroundColor: p.color }}>
+                <Link className={styles.btn} to='/startContest' style={{ backgroundColor: p.color }}>
                   Start
                 </Link>
               </article>

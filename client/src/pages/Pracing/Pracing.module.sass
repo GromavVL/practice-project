@@ -6,10 +6,13 @@
 
 .content
     flex: 1
+    padding: 20px
 
 .body 
   position: relative
-  width: 300px
+  margin: 10px 0
+  padding: 8px 0
+  border-bottom: 2px solid #e5e5e5
    
   &::after,&::before
     position: absolute
@@ -37,3 +40,49 @@
     $size: 5px
     width: $size
     height: $size
+
+.cartWrapper
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  gap: 24px
+
+.cardTitle
+  padding: 15px
+  width: 100%
+  min-height: 200px
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  box-sizing: border-box
+
+.title
+  font-size: 28px
+  font-weight: 600
+  margin-bottom: 10px
+
+.priceInfo
+  margin-bottom: 40px
+
+.price
+  font-size: 28px
+  font-weight: 600
+  text-align: right
+
+.cart
+  box-sizing: border-box
+  display: flex
+  align-items: center
+  flex-direction: column
+  width: 250px
+  
+
+.btn
+  color: white
+  padding: 11px
+  border-radius: 5px
+  width: 91%
+  text-align: center
+
+.profitContainer
+  width: 100%
