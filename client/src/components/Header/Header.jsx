@@ -223,7 +223,7 @@ class Header extends React.Component {
                   />
                   <ul>
                     <li>
-                      <a href='http://www.google.com'>POPULAR NAMES</a>
+                      <Link to='/recommended'>RECOMMENDED FOR YOU</Link>
                     </li>
                     <li>
                       <a href='http://www.google.com'>SHORT NAMES</a>
