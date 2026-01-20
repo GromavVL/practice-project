@@ -1,0 +1,102 @@
+[
+    {
+        "iconSrc": "/staticImages/iconCard/icon1.webp",
+        "title": "Test.com",
+        "price": "4000000"
+    },
+    {
+        "iconSrc": "/staticImages/iconCard/icon2.webp",
+        "title": "Wozot.com",
+        "price": "2199"
+    },
+    {
+        "iconSrc": "/staticImages/iconCard/icon3.webp",
+        "title": "Ticket.com",
+        "price": "Make Offer"
+    },
+    {
+        "iconSrc": "/staticImages/iconCard/icon4.webp",
+        "title": "ButtonData.com",
+        "price": "2888"
+    },
+    {
+        "iconSrc": "/staticImages/iconCard/icon5.webp",
+        "title": "Excel.com",
+        "price": "25000000"
+    },
+    {
+        "iconSrc": "/staticImages/iconCard/icon6.webp",
+        "title": "Thriverly.com ",
+        "price": "3599"
+    },
+    {
+        "iconSrc": "/staticImages/iconCard/icon7.webp",
+        "title": "FAS.com",
+        "price": "124999"
+    },
+    {
+        "iconSrc": "/staticImages/iconCard/icon8.webp",
+        "title": "Luresome.com",
+        "price": "48000"
+    },
+    {
+        "iconSrc": "/staticImages/iconCard/icon9.webp",
+        "title": "Comic.io",
+        "price": "8574643"
+    },
+    {
+        "iconSrc": "/staticImages/iconCard/icon10.webp",
+        "title": "Galore.com",
+        "price": "4576347"
+    },
+    {
+        "iconSrc": "/staticImages/iconCard/icon11.webp",
+        "title": "Shrink.io",
+        "price": "78747493"
+    },
+    {
+        "iconSrc": "/staticImages/iconCard/icon12.webp",
+        "title": "TouchPay.com",
+        "price": "584639325"
+    },
+    {
+        "iconSrc": "/staticImages/iconCard/icon13.webp",
+        "title": "Sample.com",
+        "price": "1895749"
+    },
+    {
+        "iconSrc": "/staticImages/iconCard/icon14.webp",
+        "title": "Recover.io",
+        "price": "5876464"
+    },
+    {
+        "iconSrc": "/staticImages/iconCard/icon15.webp",
+        "title": "Headshot.io",
+        "price": "56487634"
+    },
+    {
+        "iconSrc": "/staticImages/iconCard/icon16.webp",
+        "title": "GratFlix.com",
+        "price": "4536889"
+    },
+    {
+        "iconSrc": "/staticImages/iconCard/icon17.webp",
+        "title": "Padion.com",
+        "price": "455778457"
+    },
+    {
+        "iconSrc": "/staticImages/iconCard/icon18.webp",
+        "title": "YLiv.com",
+        "price": "579962"
+    },
+    {
+        "iconSrc": "/staticImages/iconCard/icon19.webp",
+        "title": "Oasis.com",
+        "price": "87864443"
+    },
+    {
+        "iconSrc": "/staticImages/iconCard/icon20.webp",
+        "title": "ML.net",
+        "price": "2468655"
+    }
+]
