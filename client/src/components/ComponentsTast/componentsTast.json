@@ -1,0 +1,22 @@
+[
+    {
+        "iconSrc": "/staticImages/icons/icon-1.svg",
+        "title": "Consultant Led",
+        "body": "Work one-on-one with a Atom branding consultant."
+    },
+    {
+        "iconSrc": "/staticImages/icons/icon-2.svg",
+        "title": "Crowd powered",
+        "body": "Work with our top rated Creatuves and receive a huge breadth of ideas" 
+    },
+    {
+        "iconSrc": "/staticImages/icons/icon-3.svg",
+        "title": "trademark Reports",
+        "body": "Comprehensive trademark screening on your shorlisted names"
+    },
+    {
+        "iconSrc": "/staticImages/icons/icon-4.svg",
+        "title": "Audience Testing",
+        "body": "Get rapid feedback from real people on your shortlist of business names."
+    }
+]

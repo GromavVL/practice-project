@@ -18,6 +18,8 @@ import ContestCreationPage from './pages/ContestCreation/ContestCreationPage';
 import CONSTANTS from './constants';
 import browserHistory from './browserHistory';
 import ChatContainer from './components/Chat/ChatComponents/ChatContainer/ChatContainer';
+import Pricing from './pages/Pracing/Pricing';
+import RecommendedForYouPage from './pages/RecommendedForYouPage/RecommendedForYouPage';
 
 class App extends Component {
   render () {
@@ -36,6 +38,8 @@ class App extends Component {
         />
         <Switch>
           <Route exact path='/' component={Home} />
+          <Route path='/pricing' component={Pricing} />
+          <Route path='/recommended' component={RecommendedForYouPage} />
           <Route
             exact
             path='/login'
